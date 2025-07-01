@@ -1,0 +1,32 @@
+Circuit: * D:\Devoir ecole\Universiter\Session4_2025\App4\Prob\S4_APP4_Info\s4iapp4_prob\nor_test.asc
+
+Direct Newton iteration for .op point succeeded.
+
+t1: time=4.03291e-09 at 4.03291e-09
+t2: time=4.204e-09 at 4.204e-09
+t3: time=1.05075e-09 at 1.05075e-09
+t4: time=1.00837e-09 at 1.00837e-09
+transition_up: abs(t2-t1)=1.71094e-10
+transition_down: abs(t4-t3)=4.23784e-11
+
+Measurement "ratio" FAIL'ed
+
+
+Date: Tue Jul  1 15:05:21 2025
+Total elapsed time: 0.120 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2590
+traniter = 2584
+tranpoints = 1244
+accept = 1177
+rejected = 67
+matrix size = 12
+fillins = 0
+solver = Normal
+Avg thread counts: 4.3/5.7/5.7/3.3
+Matrix Compiler1: 642 bytes object code size  0.2/0.2/[0.2]
+Matrix Compiler2: 1008 bytes object code size  0.1/0.2/[0.1]
+

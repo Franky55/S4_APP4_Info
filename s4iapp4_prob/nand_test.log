@@ -1,32 +1,31 @@
-Circuit: * D:\Devoir ecole\Universiter\Session4_2025\App4\Prob\S4_APP4_Info\s4iapp4_prob\nand_test.asc
+Circuit: * C:\Users\gratt\Documents\Uni\Session4\App4\S4_APP4_Info\s4iapp4_prob\nand_test.asc
 
 Direct Newton iteration for .op point succeeded.
 
-t1: time=3.01336e-09 at 3.01336e-09
-t2: time=3.08475e-09 at 3.08475e-09
-t3: time=2.049e-09 at 2.049e-09
-t4: time=2.01038e-09 at 2.01038e-09
-transition_up: abs(t2-t1)=7.13948e-11
-transition_down: abs(t4-t3)=3.86167e-11
+t1: time=3.01615e-009 at 3.01615e-009
+t2: time=3.12915e-009 at 3.12915e-009
+t3: time=2.08664e-009 at 2.08664e-009
+t4: time=2.0146e-009 at 2.0146e-009
+transition_up: abs(t2-t1)=1.12999e-010
+transition_down: abs(t4-t3)=7.20417e-011
 
 Measurement "ratio" FAIL'ed
 
 
-Date: Tue Jul  1 15:28:46 2025
-Total elapsed time: 0.133 seconds.
+Date: Wed Jul 02 16:17:33 2025
+Total elapsed time: 0.306 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3160
-traniter = 3154
-tranpoints = 1284
-accept = 1205
-rejected = 79
-matrix size = 15
+totiter = 2590
+traniter = 2584
+tranpoints = 1244
+accept = 1177
+rejected = 67
+matrix size = 9
 fillins = 0
 solver = Normal
-Avg thread counts: 4.1/5.5/5.6/2.9
-Matrix Compiler1: 916 bytes object code size  0.5/0.2/[0.2]
-Matrix Compiler2: 1.20 KB object code size  0.1/0.2/[0.1]
+Matrix Compiler1: 386 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
 

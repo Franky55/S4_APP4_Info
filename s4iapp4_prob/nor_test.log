@@ -1,18 +1,18 @@
-Circuit: * C:\Users\gratt\Documents\Uni\Session4\App4\S4_APP4_Info\s4iapp4_prob\nor_test.asc
+Circuit: * D:\Devoir ecole\Universiter\Session4_2025\App4\Prob\S4_APP4_Info\s4iapp4_prob\nor_test.asc
 
 Direct Newton iteration for .op point succeeded.
 
-t1: time=4.01525e-009 at 4.01525e-009
-t2: time=4.09792e-009 at 4.09792e-009
-t3: time=1.10425e-009 at 1.10425e-009
-t4: time=1.02061e-009 at 1.02061e-009
-transition_up: abs(t2-t1)=8.26693e-011
-transition_down: abs(t4-t3)=8.36393e-011
+t1: time=4.01525e-09 at 4.01525e-09
+t2: time=4.09792e-09 at 4.09792e-09
+t3: time=1.10425e-09 at 1.10425e-09
+t4: time=1.02061e-09 at 1.02061e-09
+transition_up: abs(t2-t1)=8.26693e-11
+transition_down: abs(t4-t3)=8.36393e-11
 ratio: transition_up/transition_down=0.988403
 
 
-Date: Wed Jul 02 16:13:32 2025
-Total elapsed time: 0.234 seconds.
+Date: Thu Jul  3 10:29:24 2025
+Total elapsed time: 0.110 seconds.
 
 tnom = 27
 temp = 27
@@ -25,6 +25,7 @@ rejected = 69
 matrix size = 12
 fillins = 0
 solver = Normal
-Matrix Compiler1: 642 bytes object code size  0.2/0.1/[0.1]
-Matrix Compiler2: off  [0.1]/0.2/0.2
+Avg thread counts: 4.3/5.6/5.7/3.3
+Matrix Compiler1:      36 opcodes  0.2/[0.1]/0.1
+Matrix Compiler2: off  [0.1]/0.1/0.1
 

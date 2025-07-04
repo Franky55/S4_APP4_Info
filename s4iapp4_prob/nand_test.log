@@ -7,25 +7,28 @@ t2: time=3.12915e-09 at 3.12915e-09
 t3: time=2.08664e-09 at 2.08664e-09
 t4: time=2.0146e-09 at 2.0146e-09
 transition_up: abs(t2-t1)=1.12999e-10
-transition_down: abs(t4-t3)=7.20417e-11
+transition_down: abs(t4-t3)=7.20415e-11
 ratio: transition_up/transition_down=1.56852
+vil: d(v(out))=-1 AT 2.001e-09
+vih: d(v(out))=-1g AT 2.13168e-09
+vi_mid: (vil+vih)/2/vv=1.14797e-09
 
 
-Date: Thu Jul  3 10:33:15 2025
-Total elapsed time: 0.150 seconds.
+Date: Thu Jul  3 11:58:30 2025
+Total elapsed time: 0.114 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2590
-traniter = 2584
+totiter = 2589
+traniter = 2583
 tranpoints = 1244
 accept = 1177
 rejected = 67
-matrix size = 9
+matrix size = 8
 fillins = 0
 solver = Normal
-Avg thread counts: 3.3/5.7/5.7/3.3
-Matrix Compiler1:      20 opcodes  0.1/[0.1]/0.1
-Matrix Compiler2: 715 bytes object code size  0.1/0.1/[0.1]
+Avg thread counts: 4.3/5.7/5.7/3.3
+Matrix Compiler1:      17 opcodes  0.1/[0.1]/0.1
+Matrix Compiler2: 642 bytes object code size  0.1/0.2/[0.1]
 

@@ -11,7 +11,7 @@ transition_down: abs(t4-t3)=1.27425e-10
 ratio: transition_up/transition_down=0.972637
 
 
-Date: Thu Jul  3 22:53:35 2025
+Date: Thu Jul  3 23:24:13 2025
 Total elapsed time: 0.137 seconds.
 
 tnom = 27
@@ -26,6 +26,6 @@ matrix size = 13
 fillins = 0
 solver = Normal
 Avg thread counts: 4.9/5.5/5.6/3.1
-Matrix Compiler1: 960 bytes object code size  0.3/0.1/[0.1]
-Matrix Compiler2: 1.33 KB object code size  0.1/0.2/[0.1]
+Matrix Compiler1:      53 opcodes  0.3/[0.2]/0.2
+Matrix Compiler2: 1.33 KB object code size  0.2/0.2/[0.1]
 

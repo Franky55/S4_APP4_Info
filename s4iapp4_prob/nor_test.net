@@ -1,0 +1,32 @@
+* D:\Devoir ecole\Universiter\Session4_2025\App4\Prob\S4_APP4_Info\s4iapp4_prob\nor_test.asc
+V1 vdd 0 {vv}
+V2 b 0 PULSE(0 {vv} 1000p 1p 1p 2000p 4000p 5)
+V3 a 0 PULSE(0 {vv} 2000p 1p 1p 2000p 4000p 5)
+XX1 a out vdd 0 b nor params: NOR ll=180n wn={nnw} wp={nnw*mp}
+C1 out 0 1f
+
+* block symbol definitions
+.subckt nor in1 Q vdd vss in2
+M1 Q in1 vss vss NMOS l={ll} w={wn} ad={450n*{wn}} as={450n*{wn}} pd={900n+{wn}} ps={1080n+{wn}}
+M2 Q in2 vss vss NMOS l={ll} w={wn} ad={450n*{wn}} as={450n*{wn}} pd={900n+{wn}} ps={1080n+{wn}}
+M3 vdd in1 N001 vdd PMOS l={ll} w={newWp} ad={450n*{newWp}} as={450n*{newWp}} pd={900n+{newWp}} ps={1080n+{newWp}}
+M4 N001 in2 Q N001 PMOS l={ll} w={newWp} ad={450n*{newWp}} as={450n*{newWp}} pd={900n+{newWp}} ps={1080n+{newWp}}
+.lib BU_180nm.lib
+.param newWp={wp*2}
+.ends nor
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\gratt\AppData\Local\LTspice\lib\cmp\standard.mos
+.param vv=1.8 nnw=180n mp=2.26
+.tran 0 10000p 0 10p
+.lib BU_180nm.lib
+.meas tran t1 find time when v(out)=vv*0.1 rise 2
+.meas tran t2 find time when v(out)=vv*0.9 rise 1
+.meas tran t3 find time when v(out)=vv*0.1 fall 1
+.meas tran t4 find time when v(out)=vv*0.9 fall 1
+.meas tran transition_up param abs(t2-t1)
+.meas tran transition_down param abs(t4-t3)
+.meas tran ratio param transition_up/transition_down
+.backanno
+.end

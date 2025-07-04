@@ -1,0 +1,26 @@
+Circuit: * C:\Users\gratt\Documents\Uni\Session4\App4\S4_APP4_Info\s4iapp4_prob\xor_test_Vm.asc
+
+.dc sweep increment has wrong sign -- fixing...
+
+vil: d(v(out))=1 AT 0.806917
+vih: d(v(out))=1 AT 0.975951
+vi_mid: (vil+vih)/2=0.891434
+
+
+Date: Thu Jul 03 15:06:48 2025
+Total elapsed time: 0.129 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 3625
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 16
+fillins = 4
+solver = Normal
+Matrix Compiler1: 1.47 KB object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1.68 KB object code size  0.1/0.1/[0.1]
+

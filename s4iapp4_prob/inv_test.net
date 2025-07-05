@@ -1,0 +1,31 @@
+* C:\Users\gratt\Documents\Uni\Session4\App4\S4_APP4_Info\s4iapp4_prob\inv_test.asc
+V1 vdd 0 {vv}
+V2 vin 0 PULSE(0 {vv} 10p 1p 1p 300p 600p 3)
+XX1 vin out vdd 0 inv params: ll=180n wn={nnw} wp={nnw*mp}
+C1 out 0 1f
+
+* block symbol definitions
+.subckt inv In _Q vdd vss
+M1 _Q In vss vss NMOS l={ll} w={wn} ad={450n*{wn}} as={450n*{wn}} pd={900n+{wn}} ps={1080n+{wn}}
+M2 vdd In _Q vdd PMOS l={ll} w={wp} ad={450n*{wp}} as={450n*{wp}} pd={900n+{wp}} ps={1080n+{wp}}
+.lib BU_180nm.lib
+.ends inv
+
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\gratt\OneDrive\Documents\LTspiceXVII\lib\cmp\standard.mos
+.param vv=1.8 nnw=180n mp=2.26
+.lib BU_180nm.lib
+.tran 1200p
+.param voh=vv*0.9 vol=vv*0.1
+.meas tran t1 find time when v(out)={vol} rise 1
+.meas tran t2 find time when v(out)={voh} rise 1
+.meas tran t3 find time when v(out)={vol} fall 1
+.meas tran t4 find time when v(out)={voh} fall 1
+.meas tran uptime param abs(t2-t1)
+.meas tran downtime param abs(t4-t3)
+.meas tran upslope param abs({voh}-{vol})/abs(t2-t1)
+.meas tran downslope param abs({voh}-{vol})/abs(t4-t3)
+.meas tran ratio param upslope/downslope
+.backanno
+.end

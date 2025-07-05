@@ -1,0 +1,21 @@
+Circuit: * C:\Users\gratt\Documents\Uni\Session4\App4\S4_APP4_Info\s4iapp4_prob\pad_buffer_test.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Jul 04 15:08:00 2025
+Total elapsed time: 0.446 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 26343
+traniter = 26333
+tranpoints = 12106
+accept = 11334
+rejected = 772
+matrix size = 10
+fillins = 0
+solver = Normal
+Matrix Compiler1: 616 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+

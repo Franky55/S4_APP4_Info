@@ -1,31 +1,30 @@
-Circuit: * D:\Devoir ecole\Universiter\Session4_2025\App4\Prob\S4_APP4_Info\s4iapp4_prob\nor_test.asc
+Circuit: * C:\Users\gratt\Documents\Uni\Session4\App4\S4_APP4_Info\s4iapp4_prob\nor_test.asc
 
 Direct Newton iteration for .op point succeeded.
 
-t1: time=4.01532e-09 at 4.01532e-09
-t2: time=4.09807e-09 at 4.09807e-09
-t3: time=1.10429e-09 at 1.10429e-09
-t4: time=1.0206e-09 at 1.0206e-09
-transition_up: abs(t2-t1)=8.2745e-11
-transition_down: abs(t4-t3)=8.3689e-11
-ratio: transition_up/transition_down=0.98872
+t1: time=4.02942e-009 at 4.02942e-009
+t2: time=4.14343e-009 at 4.14343e-009
+t3: time=1.10449e-009 at 1.10449e-009
+t4: time=1.0207e-009 at 1.0207e-009
+transition_up: abs(t2-t1)=1.14007e-010
+transition_down: abs(t4-t3)=8.37892e-011
+ratio: transition_up/transition_down=1.36063
 
 
-Date: Thu Jul  3 23:35:16 2025
-Total elapsed time: 0.108 seconds.
+Date: Fri Jul 04 14:53:44 2025
+Total elapsed time: 0.283 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2637
-traniter = 2631
-tranpoints = 1256
-accept = 1185
-rejected = 71
+totiter = 2658
+traniter = 2652
+tranpoints = 1270
+accept = 1195
+rejected = 75
 matrix size = 8
 fillins = 0
 solver = Normal
-Avg thread counts: 3.2/5.6/5.7/3.2
-Matrix Compiler1:      17 opcodes  0.1/[0.1]/0.1
-Matrix Compiler2: 602 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler1: 300 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
 

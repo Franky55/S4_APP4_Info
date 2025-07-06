@@ -9,10 +9,11 @@ t4: time=3.37359e-09 at 3.37359e-09
 transition_up: abs(t2-t1)=7.739e-11
 transition_down: abs(t4-t3)=7.29487e-11
 ratio: transition_up/transition_down=1.06088
+moy: (transition_up+transition_down)/2=7.51693e-11
 
 
-Date: Sun Jul  6 11:22:53 2025
-Total elapsed time: 0.109 seconds.
+Date: Sun Jul  6 12:24:06 2025
+Total elapsed time: 0.104 seconds.
 
 tnom = 27
 temp = 27
@@ -25,7 +26,7 @@ rejected = 109
 matrix size = 12
 fillins = 0
 solver = Normal
-Avg thread counts: 4.9/5.7/5.7/3.1
-Matrix Compiler1: 770 bytes object code size  0.3/0.1/[0.1]
+Avg thread counts: 4.2/5.7/5.7/3.1
+Matrix Compiler1:      44 opcodes  0.3/[0.1]/0.1
 Matrix Compiler2: off  [0.1]/0.1/0.1
 

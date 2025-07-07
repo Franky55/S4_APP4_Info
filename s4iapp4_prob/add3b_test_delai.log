@@ -7,32 +7,34 @@ Direct Newton iteration for .op point succeeded.
 
 t1: time=2.25589e-09 at 2.25589e-09
 t2: time=2.44562e-09 at 2.44562e-09
-t3: time=4.3812e-09 at 4.3812e-09
-t4: time=4.24172e-09 at 4.24172e-09
-t5: time=2.0001e-09 at 2.0001e-09
-t6: time=4.0019e-09 at 4.0019e-09
-transition_up: abs(t2-t1)=1.89728e-10
-transition_down: abs(t4-t3)=1.39479e-10
-ratio: transition_up/transition_down=1.36026
-propagation: abs(t5-t2)=4.45515e-10
-propagationfall: abs(t6-t3)=3.79296e-10
+t3: time=4.38119e-09 at 4.38119e-09
+t4: time=4.24171e-09 at 4.24171e-09
+t5: time=2.0005e-09 at 2.0005e-09
+t6: time=4.0015e-09 at 4.0015e-09
+t7: time=2.32645e-09 at 2.32645e-09
+t8: time=4.30066e-09 at 4.30066e-09
+transition_up: abs(t2-t1)=1.89726e-10
+transition_down: abs(t4-t3)=1.3948e-10
+ratio: transition_up/transition_down=1.36023
+propagation: abs(t5-t7)=3.25952e-10
+propagationfall: abs(t6-t8)=2.99155e-10
 
 
-Date: Sun Jul  6 20:51:36 2025
-Total elapsed time: 0.238 seconds.
+Date: Sun Jul  6 23:13:13 2025
+Total elapsed time: 0.199 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2392
-traniter = 2364
+totiter = 2393
+traniter = 2369
 tranpoints = 1126
 accept = 1092
 rejected = 34
-matrix size = 81
-fillins = 38
+matrix size = 72
+fillins = 30
 solver = Normal
-Avg thread counts: 4.5/6.2/6.2/3.5
-Matrix Compiler1: 11.04 KB object code size  2.2/1.9/[1.0]
-Matrix Compiler2: 10.06 KB object code size  1.2/1.1/[0.5]
+Avg thread counts: 5.0/6.2/6.2/3.5
+Matrix Compiler1: 10.07 KB object code size  1.9/0.9/[0.7]
+Matrix Compiler2: 8.88 KB object code size  0.7/0.8/[0.5]
 

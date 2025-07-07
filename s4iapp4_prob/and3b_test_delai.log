@@ -9,17 +9,19 @@ t1: time=2.06137e-09 at 2.06137e-09
 t2: time=2.14348e-09 at 2.14348e-09
 t3: time=4.11114e-09 at 4.11114e-09
 t4: time=4.04303e-09 at 4.04303e-09
-t5: time=2.0001e-09 at 2.0001e-09
-t6: time=4.0019e-09 at 4.0019e-09
+t5: time=2.0005e-09 at 2.0005e-09
+t6: time=4.0015e-09 at 4.0015e-09
+t7: time=2.09699e-09 at 2.09699e-09
+t8: time=4.07412e-09 at 4.07412e-09
 transition_up: abs(t2-t1)=8.2111e-11
 transition_down: abs(t4-t3)=6.81111e-11
 ratio: transition_up/transition_down=1.20554
-propagation: abs(t5-t2)=1.43379e-10
-propagationfall: abs(t6-t3)=1.09243e-10
+propagation: abs(t5-t7)=9.64865e-11
+propagationfall: abs(t6-t8)=7.26165e-11
 
 
-Date: Sun Jul  6 20:51:49 2025
-Total elapsed time: 0.142 seconds.
+Date: Sun Jul  6 23:02:25 2025
+Total elapsed time: 0.117 seconds.
 
 tnom = 27
 temp = 27
@@ -32,7 +34,7 @@ rejected = 32
 matrix size = 21
 fillins = 0
 solver = Normal
-Avg thread counts: 4.0/6.2/6.2/3.5
+Avg thread counts: 4.5/6.2/6.2/3.5
 Matrix Compiler1: 842 bytes object code size  0.3/0.1/[0.1]
-Matrix Compiler2: 1.53 KB object code size  0.2/0.2/[0.1]
+Matrix Compiler2: 1.53 KB object code size  0.1/0.2/[0.1]
 

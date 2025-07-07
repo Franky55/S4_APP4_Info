@@ -2,31 +2,33 @@ Circuit: * D:\Devoir ecole\Universiter\Session4_2025\App4\Prob\S4_APP4_Info\s4ia
 
 Direct Newton iteration for .op point succeeded.
 
-t1: time=1.3728e-09 at 1.3728e-09
-t2: time=1.45019e-09 at 1.45019e-09
-t3: time=3.44654e-09 at 3.44654e-09
-t4: time=3.37359e-09 at 3.37359e-09
-transition_up: abs(t2-t1)=7.739e-11
-transition_down: abs(t4-t3)=7.29487e-11
-ratio: transition_up/transition_down=1.06088
-moy: (transition_up+transition_down)/2=7.51693e-11
+t1: time=1.43561e-09 at 1.43561e-09
+t2: time=1.49291e-09 at 1.49291e-09
+t3: time=3.48723e-09 at 3.48723e-09
+t4: time=3.43689e-09 at 3.43689e-09
+t5: time=1.0001e-09 at 1.0001e-09
+transition_up: abs(t2-t1)=5.73062e-11
+transition_down: abs(t4-t3)=5.03356e-11
+ratio: transition_up/transition_down=1.13848
+moy: (transition_up+transition_down)/2=5.38209e-11
+propagation: abs(t5-t2)=4.92813e-10
 
 
-Date: Sun Jul  6 12:24:06 2025
-Total elapsed time: 0.104 seconds.
+Date: Sun Jul  6 22:11:24 2025
+Total elapsed time: 0.143 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 2814
-traniter = 2804
-tranpoints = 1264
-accept = 1155
-rejected = 109
+totiter = 2919
+traniter = 2909
+tranpoints = 1304
+accept = 1189
+rejected = 115
 matrix size = 12
 fillins = 0
 solver = Normal
-Avg thread counts: 4.2/5.7/5.7/3.1
-Matrix Compiler1:      44 opcodes  0.3/[0.1]/0.1
-Matrix Compiler2: off  [0.1]/0.1/0.1
+Avg thread counts: 4.2/5.6/5.5/3.0
+Matrix Compiler1: 842 bytes object code size  0.3/0.2/[0.2]
+Matrix Compiler2: 1.02 KB object code size  0.2/0.2/[0.2]
 

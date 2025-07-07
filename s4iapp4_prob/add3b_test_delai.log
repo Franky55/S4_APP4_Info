@@ -1,0 +1,38 @@
+Circuit: * D:\Devoir ecole\Universiter\Session4_2025\App4\Prob\S4_APP4_Info\s4iapp4_prob\add3b_test_delai.asc
+
+WARNING: Less than two connections to node a.  This node is used by va.
+WARNING: Less than two connections to node b.  This node is used by vb.
+WARNING: Less than two connections to node sel.  This node is used by vsel.
+Direct Newton iteration for .op point succeeded.
+
+t1: time=2.25589e-09 at 2.25589e-09
+t2: time=2.44562e-09 at 2.44562e-09
+t3: time=4.3812e-09 at 4.3812e-09
+t4: time=4.24172e-09 at 4.24172e-09
+t5: time=2.0001e-09 at 2.0001e-09
+t6: time=4.0019e-09 at 4.0019e-09
+transition_up: abs(t2-t1)=1.89728e-10
+transition_down: abs(t4-t3)=1.39479e-10
+ratio: transition_up/transition_down=1.36026
+propagation: abs(t5-t2)=4.45515e-10
+propagationfall: abs(t6-t3)=3.79296e-10
+
+
+Date: Sun Jul  6 20:51:36 2025
+Total elapsed time: 0.238 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2392
+traniter = 2364
+tranpoints = 1126
+accept = 1092
+rejected = 34
+matrix size = 81
+fillins = 38
+solver = Normal
+Avg thread counts: 4.5/6.2/6.2/3.5
+Matrix Compiler1: 11.04 KB object code size  2.2/1.9/[1.0]
+Matrix Compiler2: 10.06 KB object code size  1.2/1.1/[0.5]
+
